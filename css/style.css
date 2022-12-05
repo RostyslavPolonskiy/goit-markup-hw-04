@@ -149,7 +149,7 @@ section.banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-white);
+  background-color: var(--color-whisper);
   border-radius: 4px;
 }
 
@@ -431,6 +431,7 @@ section.banner {
 .filter-button:hover {
   color: var(--color-wild-sand);
   background: var(--color-dodger-blue);
+  border-color: var(--color-dodger-blue);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
     0 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -476,6 +477,10 @@ section.banner {
   background-color: var(--color-white);
 }
 
+.project-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .project-item:not(:nth-child(3n + 3)) {
   margin-right: 30px;
 }
@@ -504,7 +509,7 @@ section.banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--color-whisper);
+  background: var(--color-white);
   border: 1px solid var(--color-Bombay);
   border-radius: 4px;
   margin-top: 50px;
